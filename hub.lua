@@ -1,17 +1,17 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
-if game.placeid == 13822889 then 
+if game.PlaceId == 13822889 then
     local Window = Rayfield:CreateWindow({
         Name = "Dcore Hub",
         Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
         LoadingTitle = "Dcore Hub",
         LoadingSubtitle = "by Dcore",
-        Theme = "AmberGlow", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+        Theme = "dark", -- Check https://docs.sirius.menu/rayfield/configuration/themes
      
         DisableRayfieldPrompts = false,
         DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
      
         ConfigurationSaving = {
-           Enabled = true,
+           Enabled = false,
            FolderName = nil, -- Create a custom folder for your hub/game
            FileName = "Dcore Hub"
         },

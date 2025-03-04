@@ -46,7 +46,7 @@ local Checkkey = Tabs.KeySys:AddButton({
         local premium  = KeyGuardLibrary.validatePremiumKey(key)
         if response == trueData then
            print("Key is valid")
-           
+           loadstring(game:HttpGet('https://github.com/dakoplayz1/hub/raw/refs/heads/main/hub.lua'))
         elseif premium == truedata then
             print("Key is valid")
             

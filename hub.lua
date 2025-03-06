@@ -48,6 +48,12 @@ if game.PlaceId == 13822889 then
          Rayfield:Destroy()
       end,
    })
+   local Button = Tab:CreateButton({
+      Name = "destroy ui",
+      Callback = function()
+         Rayfield:Destroy()
+      end,
+   })
 
 else
     Rayfield:Notify({
